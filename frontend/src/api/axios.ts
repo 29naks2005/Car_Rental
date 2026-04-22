@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5001/api",
+  baseURL: "https://car-rental-1kjz.onrender.com/api",
 });
 
 // Attach JWT token to every request
